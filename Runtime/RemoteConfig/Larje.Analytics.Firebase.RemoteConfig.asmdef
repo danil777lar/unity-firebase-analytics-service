@@ -1,0 +1,25 @@
+{
+    "name": "Larje.Analytics.Firebase.RemoteConfig",
+    "rootNamespace": "Larje.Analytics.Firebase.RemoteConfig",
+    "references": [
+        "Larje.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "LARJE_FIREBASE_REMOTE_CONFIG"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.google.firebase.remote-config",
+            "expression": "11.0.0",
+            "define": "LARJE_FIREBASE_REMOTE_CONFIG"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Larje.Analytics.Firebase.Zenject",
+    "rootNamespace": "Larje.Analytics.Firebase.Zenject",
+    "references": [
+        "Larje.Core",
+        "Larje.Core.Zenject",
+        "Larje.Analytics.Firebase",
+        "Zenject",
+        "Larje.Analytics.Firebase.RemoteConfig"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "LARJE_ZENJECT",
+        "LARJE_FIREBASE_ANALYTICS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.larje.zenject",
+            "expression": "9.0.0",
+            "define": "LARJE_ZENJECT"
+        },
+        {
+            "name": "com.google.firebase.analytics",
+            "expression": "11.0.0",
+            "define": "LARJE_FIREBASE_ANALYTICS"
+        },
+        {
+            "name": "com.google.firebase.remote-config",
+            "expression": "11.0.0",
+            "define": "LARJE_FIREBASE_REMOTE_CONFIG"
+        }
+    ],
+    "noEngineReferences": false
+}
